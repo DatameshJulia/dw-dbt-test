@@ -1,0 +1,8 @@
+sources:
+  - name: silver_layer
+    database: "{{ var('target_catalog', 'default') }}"
+    schema: silver
+    tables:
+      - name: cars
+      - name: customers
+      - name: sales
