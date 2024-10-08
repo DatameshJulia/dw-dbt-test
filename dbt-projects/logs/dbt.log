@@ -1,0 +1,130 @@
+[0m11:30:18.226530 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cd7392cf6b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cd739b9eab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cd739b9fc50>]}
+
+
+============================== 11:30:18.228908 | 4304f6d0-3c6d-4999-a53d-a9348448cff9 ==============================
+[0m11:30:18.228908 [info ] [MainThread]: Running with dbt=1.8.6
+[0m11:30:18.229400 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': '/home/julia/.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init silver-layer', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:30:41.232126 [debug] [MainThread]: Starter project path: /home/julia/workspace/dmesh/data-workshop/dbt/dbt-venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m11:30:41.245648 [info ] [MainThread]: 
+Your new dbt project "silver_layer" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:30:41.248068 [info ] [MainThread]: Setting up your profile.
+[0m11:30:54.285381 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:30:54.285964 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:30:54.286525 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:32:19.014705 [info ] [MainThread]: Profile silver_layer written to /home/julia/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:32:19.016934 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 120.83018, "process_user_time": 2.111016, "process_kernel_time": 0.856818, "process_mem_max_rss": "207632", "process_out_blocks": "96", "process_in_blocks": "0"}
+[0m11:32:19.018987 [debug] [MainThread]: Command `dbt init` succeeded at 11:32:19.018624 after 120.83 seconds
+[0m11:32:19.020244 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cd73907fc80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cd716eceab0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7cd716eba630>]}
+[0m11:32:19.021312 [debug] [MainThread]: Flushing usage events
+[0m11:36:52.361708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed5e6d15460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed5e672e750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed5e672f980>]}
+
+
+============================== 11:36:52.363939 | e1c3299a-5be5-44ab-915a-b9ef0adebb0b ==============================
+[0m11:36:52.363939 [info ] [MainThread]: Running with dbt=1.8.6
+[0m11:36:52.364460 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/julia/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m11:36:52.372424 [info ] [MainThread]: dbt version: 1.8.6
+[0m11:36:52.372927 [info ] [MainThread]: python version: 3.12.3
+[0m11:36:52.373314 [info ] [MainThread]: python path: /home/julia/workspace/dmesh/data-workshop/dbt/dbt-venv/bin/python3
+[0m11:36:52.373823 [info ] [MainThread]: os info: Linux-6.8.0-44-generic-x86_64-with-glibc2.39
+[0m11:36:52.471570 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:36:52.472178 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:36:52.472665 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:36:53.408053 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m11:36:53.408900 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.0861367, "process_user_time": 2.169245, "process_kernel_time": 0.843706, "process_mem_max_rss": "208080", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m11:36:53.409541 [debug] [MainThread]: Command `dbt debug` failed at 11:36:53.409423 after 1.09 seconds
+[0m11:36:53.409926 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed5e6d15460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed5c3117080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ed5c30edc10>]}
+[0m11:36:53.410316 [debug] [MainThread]: Flushing usage events
+[0m11:56:39.208742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223ae5e3740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223aefe0770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223aee59070>]}
+
+
+============================== 11:56:39.211170 | 83ea0311-751e-4b36-8dd7-f1b76df476b2 ==============================
+[0m11:56:39.211170 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:56:39.211685 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/julia/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:56:39.219965 [info ] [MainThread]: dbt version: 1.8.7
+[0m11:56:39.220395 [info ] [MainThread]: python version: 3.12.3
+[0m11:56:39.220754 [info ] [MainThread]: python path: /home/julia/workspace/dmesh/data-workshop/setup-venv/bin/python3
+[0m11:56:39.221088 [info ] [MainThread]: os info: Linux-6.8.0-45-generic-x86_64-with-glibc2.39
+[0m11:56:39.312134 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:56:39.312682 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:56:39.313118 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:56:40.291975 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m11:56:40.293261 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.1227155, "process_user_time": 2.186221, "process_kernel_time": 0.855086, "process_mem_max_rss": "209972", "process_in_blocks": "5936", "process_out_blocks": "16", "command_success": false}
+[0m11:56:40.294007 [debug] [MainThread]: Command `dbt debug` failed at 11:56:40.293911 after 1.12 seconds
+[0m11:56:40.294372 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223aefe0770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7223900f38c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x722390053e30>]}
+[0m11:56:40.294808 [debug] [MainThread]: Flushing usage events
+[0m11:57:36.465363 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d9a5d551610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d9a5cbb98b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d9a5b3d26c0>]}
+
+
+============================== 11:57:36.467570 | ae7cbe0b-5aca-4231-967c-328cf29e7c94 ==============================
+[0m11:57:36.467570 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:57:36.468152 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/home/julia/.dbt', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:57:36.475659 [info ] [MainThread]: dbt version: 1.8.7
+[0m11:57:36.476064 [info ] [MainThread]: python version: 3.12.3
+[0m11:57:36.476436 [info ] [MainThread]: python path: /home/julia/workspace/dmesh/data-workshop/setup-venv/bin/python3
+[0m11:57:36.476857 [info ] [MainThread]: os info: Linux-6.8.0-45-generic-x86_64-with-glibc2.39
+[0m11:57:36.564367 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m11:57:36.564927 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m11:57:36.565397 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m11:57:37.484741 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DBT_HOST'
+[0m11:57:37.485737 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 1.0579885, "process_user_time": 2.070352, "process_kernel_time": 0.845103, "process_mem_max_rss": "210076", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m11:57:37.486459 [debug] [MainThread]: Command `dbt debug` failed at 11:57:37.486353 after 1.06 seconds
+[0m11:57:37.486834 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d9a5b42d9d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d9a5b11b7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d9a5b080fe0>]}
+[0m11:57:37.487210 [debug] [MainThread]: Flushing usage events
+[0m11:57:58.725634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721c1d28baa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721c1cfd74a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721c1cbd1ca0>]}
+
+
+============================== 11:57:58.727860 | f9aee51c-1e9c-4c18-826e-f99fa1f10b71 ==============================
+[0m11:57:58.727860 [info ] [MainThread]: Running with dbt=1.8.7
+[0m11:57:58.728431 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'profiles_dir': 'profiles', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug --profiles-dir profiles', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:57:58.735901 [info ] [MainThread]: dbt version: 1.8.7
+[0m11:57:58.736428 [info ] [MainThread]: python version: 3.12.3
+[0m11:57:58.736769 [info ] [MainThread]: python path: /home/julia/workspace/dmesh/data-workshop/setup-venv/bin/python3
+[0m11:57:58.737239 [info ] [MainThread]: os info: Linux-6.8.0-45-generic-x86_64-with-glibc2.39
+[0m11:57:58.737691 [info ] [MainThread]: Using profiles dir at profiles
+[0m11:57:58.738116 [info ] [MainThread]: Using profiles.yml file at profiles/profiles.yml
+[0m11:57:58.738521 [info ] [MainThread]: Using dbt_project.yml file at /home/julia/workspace/dmesh/data-workshop/dbt/dbt_project.yml
+[0m11:57:58.738947 [info ] [MainThread]: Configuration:
+[0m11:57:58.739454 [info ] [MainThread]:   profiles.yml file [[31mERROR not found[0m]
+[0m11:57:58.739855 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:57:58.740198 [info ] [MainThread]: Required dependencies:
+[0m11:57:58.740595 [debug] [MainThread]: Executing "git --help"
+[0m11:57:58.742583 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:57:58.743175 [debug] [MainThread]: STDERR: "b''"
+[0m11:57:58.743620 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:57:58.744119 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m11:57:58.744710 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m11:57:58.745270 [info ] [MainThread]: dbt looked for a profiles.yml file in profiles/profiles.yml, but did
+not find one. For more information on configuring your profile, consult the
+documentation:
+
+https://docs.getdbt.com/docs/configure-your-profile
+
+
+[0m11:57:58.745757 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/julia/workspace/dmesh/data-workshop/dbt/dbt_project.yml> not found
+
+[0m11:57:58.746732 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.0588716, "process_user_time": 1.009775, "process_kernel_time": 0.066918, "process_mem_max_rss": "86744", "process_out_blocks": "24", "command_success": false, "process_in_blocks": "0"}
+[0m11:57:58.747433 [debug] [MainThread]: Command `dbt debug` failed at 11:57:58.747308 after 0.06 seconds
+[0m11:57:58.748014 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721c1cba5e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721c1fb8fda0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x721c1c58bce0>]}
+[0m11:57:58.748520 [debug] [MainThread]: Flushing usage events

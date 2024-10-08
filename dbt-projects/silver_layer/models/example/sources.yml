@@ -5,4 +5,4 @@ sources:
     tables:
       - name: car_stock
       - name: customers
-      - name: temp_car_sales
+      - name: sales_events

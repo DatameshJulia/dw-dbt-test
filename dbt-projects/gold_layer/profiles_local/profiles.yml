@@ -1,0 +1,11 @@
+gold_layer:
+  outputs:
+    dev:
+      catalog: dev_julia
+      host: "{{ env_var('DBT_HOST') }}"
+      http_path: "{{ env_var('DBT_WAREHOUSE') }}"
+      schema: gold
+      threads: 1
+      token: "{{ env_var('DBT_ACCESS_TOKEN') }}"
+      type: databricks
+  target: dev
